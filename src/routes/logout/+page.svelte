@@ -1,9 +1,8 @@
 <script lang="ts">
     import { goto } from '$app/navigation';
-	import logo from '$lib/images/laurentiuslogo960.png';
 
 	function onReturnToLoginClick():void {
-		goto("/login")
+		goto("/login");
 	}
 
 </script>

@@ -25,7 +25,7 @@
                 <div class="row">
                     <div class="col"><h5>Anmelden</h5></div>
                 </div>
-                <form>
+                <!-- <form> -->
                     <div class="mb-3">
                         <input class="form-control" type="text" placeholder="Benutzer">
                     </div>
@@ -35,7 +35,7 @@
                     <div class="mb-3">
                         <button on:click|once={onLoginClick} class="btn btn-primary w-100">Anmelden</button>
                     </div>
-                </form>
+                <!-- </form> -->
             </div>
         </div>
     </div>
