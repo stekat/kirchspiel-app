@@ -18,10 +18,10 @@
 	// 	console.log(`beforeNavigate - navigate to ${to?.url}`);
   	// });
 
-	$: if($navigating) {
-		let toUrl = $navigating.to?.url;
-		console.log(`navigating - navigate to ${toUrl}`);
-	};
+	// $: if($navigating) {
+	// 	let toUrl = $navigating.to?.url;
+	// 	console.log(`navigating - navigate to ${toUrl}`);
+	// };
 
 	// $: if (browser && !$isSignedIn && $page.url.pathname !== '/auth/sign-in') {
     //     console.log(

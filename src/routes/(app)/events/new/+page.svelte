@@ -1,8 +1,9 @@
 <script lang="ts">
     import { goto } from '$app/navigation';
+    import { base } from '$app/paths';
 
 	function onSaveEventClick():void {
-		goto("/events/")
+		goto(`${base}/events/`);
 	}
 
     let questions = [

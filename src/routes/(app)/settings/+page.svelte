@@ -1,8 +1,9 @@
 <script lang="ts">
     import { goto } from '$app/navigation';
+	import { base } from '$app/paths';
 
 	function onNewEventClick():void {
-		goto("/events/new")
+		goto("{base}/events/new")
 	}
 
 </script>

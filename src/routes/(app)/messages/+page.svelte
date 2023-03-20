@@ -1,8 +1,9 @@
 <script lang="ts">
     import { goto } from '$app/navigation';
+	import { base } from '$app/paths';
 
 	function onNewMessageClick():void {
-		goto("/messages/new")
+		goto(`${base}/messages/new`);
 	}
 
 </script>
